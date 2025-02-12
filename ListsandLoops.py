@@ -33,3 +33,7 @@ for number in range(1,11):
     total_sum += number
     print("The sum of the first 10 Natural numbers is:", total_sum)
 
+list_4 = [10,20,30,40,50]
+for number in list_4:
+    if number >= 25:
+        print(number)
