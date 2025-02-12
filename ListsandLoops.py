@@ -37,3 +37,10 @@ list_4 = [10,20,30,40,50]
 for number in list_4:
     if number >= 25:
         print(number)
+
+sentence = input("please Enter a sentence: ")
+words = sentence.split()
+for word in words:
+    print(word)
+
+
