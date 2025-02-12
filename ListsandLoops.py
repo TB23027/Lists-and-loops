@@ -18,3 +18,11 @@ squarenum = [1,2,3,4,5]
 for number in squarenum: 
     print(int(number) * (number))
 
+list_1 = [1,2,3,4,5,6,7,8,9,10]
+
+list_1.reverse()
+for reversed in list_1:
+    print(reversed)
+
+
+   
