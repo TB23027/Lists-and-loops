@@ -1,8 +1,8 @@
 for number in range(1, 11):
     print(number)
 
-numbers = ["1", "2", "3", "4", "5"]
-for number in numbers:
+list_1 = ["1", "2", "3", "4", "5"]
+for number in list_1:
     print(number)
 
 multiply =  int(input("Enter a number: "))
@@ -18,11 +18,13 @@ squarenum = [1,2,3,4,5]
 for number in squarenum: 
     print(int(number) * (number))
 
-list_1 = [1,2,3,4,5,6,7,8,9,10]
+list_2 = [1,2,3,4,5,6,7,8,9,10]
 
-list_1.reverse()
-for reversed in list_1:
+list_2.reverse()
+for reversed in list_2:
     print(reversed)
 
-
+list_3 = ["Alice", "Bob", "Charlie"]
+for name in list_3:
+    print(f"Hello, {name}!")
    
