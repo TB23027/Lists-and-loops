@@ -27,4 +27,9 @@ for reversed in list_2:
 list_3 = ["Alice", "Bob", "Charlie"]
 for name in list_3:
     print(f"Hello, {name}!")
-   
+
+total_sum = 0
+for number in range(1,11):
+    total_sum += number
+    print("The sum of the first 10 Natural numbers is:", total_sum)
+
