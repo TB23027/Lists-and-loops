@@ -1,4 +1,4 @@
-for number in range(1, 11):
+'''for number in range(1, 11):
     print(number)
 
 list_1 = ["1", "2", "3", "4", "5"]
@@ -60,5 +60,61 @@ for grade in grades:
         print(f"Grade {grade}: Pass")
     else:
         print(f"Grade {grade}: Fail")
-        
 
+variable_1 = int(input("Please enter a number: "))
+print(f"The factors of {variable_1} are:")
+for i in range(1, variable_1 + 1):
+    if variable_1 % i == 0:
+        print(i)
+
+for i in range(1, 6):
+    for j in range(1, 6):
+        print(f"{i} x {j} = {i * j}")
+    
+
+def count_vowels(input_string):
+    vowels = "aeiouAEIOU"
+    count = 0
+    
+    for char in input_string:
+        if char in vowels:
+            count += 1
+    
+    return count
+input_string = "Hello, World!"
+vowel_count = count_vowels(input_string)
+print(f"The number of vowels in the string is: {vowel_count}")
+
+
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+def print_first_n_primes(n):
+    count = 0
+    num = 2
+    while count < n:
+        if is_prime(num):
+            print(num, end=' ')
+            count += 1
+        num += 1
+
+if __name__ == "__main__":
+    try:
+        n = int(input("Enter a number: "))
+        if n > 0:
+            print_first_n_primes(n)
+        else:
+            print("Please enter a positive integer.")
+    except ValueError:
+        print("Invalid input. Please enter an integer.")
+'''
+
+list_6 = [9, 15, 27, 33, 45]
+for number in list_6:
+    result = number / 3
+    print(result)
