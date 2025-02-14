@@ -49,5 +49,16 @@ for number in list_5:
     total += number
     print(total, end=' ')
 
+a, b = 0, 1
+for _ in range(10):
+    print(a)
+    a, b = b, a + b
 
+grades = [70, 85, 90, 75, 60]
+for grade in grades:
+    if grade >= 70:
+        print(f"Grade {grade}: Pass")
+    else:
+        print(f"Grade {grade}: Fail")
+        
 
