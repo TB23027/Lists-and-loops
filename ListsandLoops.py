@@ -43,4 +43,11 @@ words = sentence.split()
 for word in words:
     print(word)
 
+list_5 = [1, 3, 5, 7, 9]
+total = 0
+for number in list_5:
+    total += number
+    print(total, end=' ')
+
+
 
