@@ -1,4 +1,4 @@
-'''for number in range(1, 11):
+for number in range(1, 11):
     print(number)
 
 list_1 = ["1", "2", "3", "4", "5"]
@@ -112,7 +112,6 @@ if __name__ == "__main__":
             print("Please enter a positive integer.")
     except ValueError:
         print("Invalid input. Please enter an integer.")
-'''
 
 list_6 = [9, 15, 27, 33, 45]
 for number in list_6:
